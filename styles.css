@@ -1,6 +1,5 @@
 header {
     font-family: 'Monoton', cursive;
-    height: 15vh;
     margin: 0 auto;
 }
 h1 {
@@ -13,7 +12,7 @@ ul {
     display: flex;
     justify-content: space-between;
     font-family: 'Playfair Display', serif;
-    font-size: 25px;
+    font-size: 20px;
 
 }
 ul li {s
@@ -30,7 +29,9 @@ main {
     flex-direction: column;
     align-items: center;
     align-content: center;
-    margin: 0
+    margin: 100px 0 0 0;
+    font-family: 'Playfair Display', serif;
+
 
 }
 .about {
@@ -38,15 +39,30 @@ main {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
+    text-align: center;
+    width: 40vw;
 }
 .work {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding: 100px; 
+    
+}
+.work a {
+    /* display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat (2, 1fr); */
+    padding: 30px;
 }
 .contact {
     display: flex;
-    justify-content: center; 
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px; 
+    text-align: center;
+}
+h2 {
+    color: plum;
 }
