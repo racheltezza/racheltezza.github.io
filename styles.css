@@ -56,6 +56,9 @@ main {
     grid-template-columns: repeat (2, 1fr); */
     padding: 30px;
 }
+.dportfolio img{
+    width: 10vw;
+}
 .contact {
     display: flex;
     flex-direction: column;
