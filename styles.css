@@ -1,0 +1,13 @@
+header {
+    font-family: 'Monoton', cursive;
+    display: flex;
+    justify-content: center;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    padding: 15px;
+}
