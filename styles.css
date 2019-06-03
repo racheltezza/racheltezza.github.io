@@ -1,11 +1,14 @@
+
 header {
-    font-family: 'Monoton', cursive;
+    font-family: 'Major Mono Display', monospace;
     margin: 0 auto;
 }
 h1 {
     display: flex;
     justify-content: center;
     color: plum;
+    padding-top: 30px;
+    letter-spacing: 20px;
 }
 ul {
     list-style: none;
@@ -13,10 +16,13 @@ ul {
     justify-content: space-between;
     font-family: 'Playfair Display', serif;
     font-size: 20px;
+    padding-top: 40px;
 
 }
 ul li {s
-    padding: 15px;
+    padding: 15px 0 0 0;
+    letter-spacing: 10px;
+    font-variant: small-caps;
 }
 .coverphoto {
     display: flex;
@@ -25,7 +31,7 @@ ul li {s
 }
 main {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     align-content: center;
@@ -35,36 +41,61 @@ main {
 
 }
 .about {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
-    width: 40vw;
+    background-image: url("/Users/rachel/Downloads/abstractCover.jpg");
+    color: black;
+    width: 35vw;
+    padding: 15px 50px 15px 50px;
+    letter-spacing: 3px;
+}
+.about h2 {
+    letter-spacing: 3px;
 }
 .work {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 100px; 
+    padding-top: 10px; 
+    text-align: center;
     
 }
-.work a {
-    /* display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: repeat (2, 1fr); */
-    padding: 30px;
-}
-.dportfolio img{
-    width: 10vw;
-}
 .contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 100px; 
     text-align: center;
+    width: 35vw;
+}
+.work img{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+.work a {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid black;
+    padding:10px;
+    margin: 10px 0 10px 0;
+    letter-spacing: 3px;
+
+}
+.work h2 {
+    text-align: center;
+    padding-top: 100px; 
+    letter-spacing: 6px;
+}
+.contact h2 {
+    text-align: center;
+    padding-top: 100px; 
+    letter-spacing: 6px;
+}
+.contact p {
+    letter-spacing: 3px;
 }
 h2 {
     color: plum;
