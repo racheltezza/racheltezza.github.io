@@ -3,19 +3,20 @@
  */
 import React, { Component } from 'react'
 import axios from 'axios'
+import {Link} from 'react-router-dom'
 
 /* Step 2
  * Rename this class to reflect the component being created
  *
  */
-export default class HelloWorld extends Component {
+export default class Projects extends Component {
 
     /* Step 3
     * Create a state for the component to store view data
     *
     */
     state = {
-        message: ''
+        projects: []
     }
 
     /* Step 4
@@ -25,11 +26,16 @@ export default class HelloWorld extends Component {
     *   setState can be run here as well
     *   -REMINDER remember `setState` it is an async function
     */
-    componentDidMount() {
-        axios.get('/api/helloworld')
-            .then((res) => {
-                this.setState({message: res.data})
-            })
+   componentDidMount() {
+        this.getAllProjects()
+    }
+
+    getAllProjects = () => {
+        axios.get(`/api/projects`)
+        .then((res) => {
+            this.setState({projects: res.data})
+        })
+
     }
 
     /* Step 5
@@ -39,10 +45,26 @@ export default class HelloWorld extends Component {
     *
     */
     render() {
+        let projectsList = this.state.projects.map((project) => {
+            return( 
+                <ul>
+                    <li>
+            <Link 
+                to="/"
+                key={project._id} 
+                to={`/projects/${project._id}`}
+            >
+                {project.name}
+            </Link>
+
+                    </li>
+                </ul>
+            )
+        })
         return (
             <div>
                 {/* Accessing the value of message from the state object */}
-                <h1>{this.state.message}</h1>
+                {projectsList}
             </div>
         )
     }
