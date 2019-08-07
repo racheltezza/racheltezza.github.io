@@ -49,8 +49,7 @@ export default class Projects extends Component {
             return( 
                 <ul>
                     <li>
-            <Link 
-                to="/"
+            <Link
                 key={project._id} 
                 to={`/projects/${project._id}`}
             >
