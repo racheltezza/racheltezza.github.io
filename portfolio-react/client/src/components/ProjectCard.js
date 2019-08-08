@@ -71,8 +71,8 @@ export default function RecipeReviewCard() {
             <MoreVertIcon />
           </IconButton>
         }
-        title="Shrimp and Chorizo Paella"
-        subheader="September 14, 2016"
+        title="projectPlaylist"
+        subheader="July 2019"
       />
       <CardMedia
         className={classes.media}
@@ -81,8 +81,7 @@ export default function RecipeReviewCard() {
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-          This impressive paella is a perfect party dish and a fun meal to cook together with your
-          guests. Add 1 cup of frozen peas along with the mussels, if you like.
+          This project is a full-stack application made with MongoDB, Express, Handlebars, and Node.js.
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
