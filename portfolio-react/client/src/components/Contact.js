@@ -5,6 +5,17 @@ export default class Contact extends Component {
         return (
             <div>
                 <h2>Contact</h2>
+                <ul>
+                    <li>
+                        <p>Email: racheletezza@gmail.com</p>
+                    </li>
+                    <li>
+                        <a href='https://www.linkedin.com/in/racheltezza/'>LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href='https://github.com/racheltezza?tab=repositories'>GitHub</a>
+                    </li>
+                </ul>
             </div>
         )
     }
