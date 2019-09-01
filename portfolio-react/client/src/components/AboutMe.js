@@ -14,6 +14,7 @@ export default class AboutMe extends Component {
         })
         return (
             <div>
+                <a name='about'></a>
                 <h2>About</h2>
                 <p>Coming from a background in creative and UX design, as a full-stack dveeloper,
                     I am ready and excited to develop the world into a better and more beautiful place.

@@ -5,6 +5,7 @@ export default class Contact extends Component {
         return (
             <div>
                 <h2>Contact</h2>
+                <a name='contact'></a>
                 <ul>
                     <li>
                         <p>Email: racheletezza@gmail.com</p>

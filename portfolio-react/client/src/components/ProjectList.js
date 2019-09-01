@@ -62,7 +62,7 @@ export default class Projects extends Component {
         })
         return (
             <div>
-                {/* Accessing the value of message from the state object */}
+                <h2>Projects</h2>
                 {projectsList}
             </div>
         )
