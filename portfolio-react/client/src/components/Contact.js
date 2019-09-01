@@ -8,7 +8,7 @@ export default class Contact extends Component {
                 <a name='contact'></a>
                 <ul>
                     <li>
-                        <p>Email: racheletezza@gmail.com</p>
+                        <p><span className='bold'>Email:</span> racheletezza@gmail.com</p>
                     </li>
                     <li>
                         <a href='https://www.linkedin.com/in/racheltezza/'>LinkedIn</a>

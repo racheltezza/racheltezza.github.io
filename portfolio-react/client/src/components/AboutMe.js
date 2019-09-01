@@ -20,7 +20,9 @@ export default class AboutMe extends Component {
                     I am ready and excited to develop the world into a better and more beautiful place.
                 </p>
                 <h3>Skills</h3>
+                <ul>
                 {skillsList}
+                </ul>
             </div>
         )
     }

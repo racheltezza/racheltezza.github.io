@@ -8,15 +8,91 @@ body {
 }
 
 h1 {
+  font-size: 80px;
   font-family: 'Playfair Display', serif;
+  color: rgb(247, 93, 93);
 }
 
 h2 {
+  font-size: 40px;
   font-family: 'Playfair Display', serif;
+  color: rgb(247, 93, 93);
+}
+
+h3 {
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  color: rgb(247, 93, 93);
+  margin: 50px auto;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 p {
   font-family: 'Lato', sans-serif;
+}
+
+a {
+  color: rgb(247, 93, 93);
+}
+
+.navbar {
+  background-color: #282c34;
+}
+
+.navbar ul{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.title-name {
+  padding: 100px;
+  margin: 50px auto 200px auto;
+}
+
+.about {
+  padding: 50px;
+  margin: 100px auto;
+  background-color: #282c34;
+  color: whitesmoke;
+}
+
+.about ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.projects {
+  padding: 50px;
+  margin: 100px auto;
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.projects ul {
+  display: flex;
+}
+
+.projects li {
+  margin: 30px auto;
+}
+
+.contact {
+  padding: 50px 0;
+  background-color: #282c34;
+  color: whitesmoke;
+}
+.contact li {
+  margin: 30px auto;
+}
+
+.contact ul {
+  display: flex;
+  justify-content: space-around;
 }
 
 li {

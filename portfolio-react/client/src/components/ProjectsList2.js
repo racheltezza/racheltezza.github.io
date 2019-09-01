@@ -36,22 +36,24 @@ export default class ProjectsList2 extends Component {
         let projectsList= projects.map((project) => {
             return(
                 <div>
-                <li>{project.name}</li>
-                <li>
-                    <a href={project.projectLink}>See Project Here</a>
-                </li>
-                <li>
-                    <a href={project.gitHubLink}>GitHub Repo</a>
-                </li> 
-                <li>Objective: {project.description}</li>
-                <li>Languages Used: {project.skills}</li>
+                    <ul>
+                        <li>{project.name}</li>
+                        <li>
+                            <a href={project.projectLink}>See Project Here</a>
+                        </li>
+                        <li>
+                            <a href={project.gitHubLink}>GitHub Repo</a>
+                        </li> 
+                        <li><span className='bold'>Objective:</span> {project.description}</li>
+                        <li><span className='bold'>Languages Used:</span> {project.skills}</li>
+                    </ul>
                 </div>
             )
         })
         return (
             <div>
-                <h2>Projects</h2>
                 <a name='projects'></a>
+                <h2>Projects</h2>
                 {projectsList}
             </div>
         )
