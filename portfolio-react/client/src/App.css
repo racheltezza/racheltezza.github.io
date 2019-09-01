@@ -90,16 +90,23 @@ a {
 .projects {
   padding: 20px;
   margin: 100px auto;
-  /* display: flex;
-  flex-direction: row; */
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+
+.project-image {
+  width: 30vw;
 }
 
 .projects ul {
   display: flex;
+  flex-direction: column;
+  /* border: 1px solid rgb(247, 93, 93); */
+  /* width: 40vw; */
 }
 
 .projects li {
-  margin: 30px auto;
+  margin: 20px auto;
 }
 
 .contact {

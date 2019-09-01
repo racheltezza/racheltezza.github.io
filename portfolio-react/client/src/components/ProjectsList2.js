@@ -1,4 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Jeopardy from '../jeopardyProject.png';
+import ProjectPlaylist from '../project_playlist.png';
+import RecycleThat from '../recycle_that.png';
+import AjarYoga from '../ajar_yoga.png';
 
 let projects = [
     {
@@ -6,28 +10,32 @@ let projects = [
         gitHubLink: "https://github.com/racheltezza/project2-playlists",
         projectLink: "https://morning-badlands-64029.herokuapp.com/users",
         description: "make a full stack application with mehn",
-        skills: "html, css, js"
+        skills: "html, css, js",
+        image: ProjectPlaylist
     },
     {
         name: "jeopardy",
         gitHubLink: "https://github.com/racheltezza/project1-jeopardy",
         projectLink: "https://rezzaproject1jeopardy.netlify.com/",
         description: "make a functioning jeopardy game",
-        skills: "html, css, js"
+        skills: "html, css, js",
+        image: Jeopardy
     },
     {
         name: "recycleThat",
         gitHubLink: "https://github.com/racheltezza/project3-recycling",
         projectLink: "https://tranquil-coast-91943.herokuapp.com/",
         description: "make a full stack application with mern",
-        skills: "html, css, js"
+        skills: "html, css, js",
+        image: RecycleThat
     },
     {
         name: "Ajar Yoga",
         gitHubLink: "https://github.com/racheltezza/project4-yoga",
         projectLink: "https://quiet-falls-54203.herokuapp.com/",
         description: "make a full stack application with mern",
-        skills: "html, css, js"
+        skills: "html, css, js",
+        image: AjarYoga
     }
 ]
 
@@ -38,6 +46,9 @@ export default class ProjectsList2 extends Component {
                 <div>
                     <ul>
                         <li>{project.name}</li>
+                        <li>
+                            <img src={project.image} className='project-image'/>
+                        </li>
                         <li>
                             <a href={project.projectLink}>See Project Here</a>
                         </li>
