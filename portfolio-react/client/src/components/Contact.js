@@ -1,8 +1,24 @@
 import React, { Component } from 'react'
 
 export default class Contact extends Component {
+    state = {
+        isResumeshowing: false
+    }
+
+handleShowResume = () => {
+    this.setState({isResumeshowing: true})
+}
+
+handleHideResume = () => {
+    this.setState({isResumeshowing: false})
+}
+
     render() {
         return (
+            this.state.isResumeshowing
+            ?
+            <img src='#'/>
+            :
             <div>
                 <h2>Contact</h2>
                 <a name='contact'></a>
