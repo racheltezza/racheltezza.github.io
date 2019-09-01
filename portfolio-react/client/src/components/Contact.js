@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { Document } from 'react-pdf'
+import Resume from '../Tezza,Rachel_Resume.pdf'
 
 export default class Contact extends Component {
     state = {
@@ -17,7 +19,8 @@ handleHideResume = () => {
         return (
             this.state.isResumeshowing
             ?
-            <img src='#'/>
+            // <img src='#'/>
+            <Document file={Resume}></Document>
             :
             <div>
                 <h2>Contact</h2>
