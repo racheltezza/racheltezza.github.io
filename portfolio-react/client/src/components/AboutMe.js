@@ -14,6 +14,8 @@ import AI from '../devicons-master/PNG/illustrator.png'
 import PS from '../devicons-master/PNG/photoshop.png'
 import VS from '../devicons-master/PNG/visualstudio.png'
 import SKETCH from '../devicons-master/PNG/sketchapp.png'
+import PAINT from '../abstract_paint.jpg'
+import CODE from '../code.jpg'
 
 let skills = [
     {
@@ -87,9 +89,20 @@ export default class AboutMe extends Component {
             <div>
                 <a name='about'></a>
                 <h2>About</h2>
+                <div className='about-section'>
+                <img src={PAINT} className='about-image'/>
                 <p className='about-p'>
-                    Artistic and deviceful software engineer coming from a background in UX and creative design ready to develop the world into a better and more beautiful place. 
+                   While navgating the world of UX and creative design, 
+                   I found that I didn't really know much about what went into developing 
+                   these experiences and designs I was creating. 
+                   That's when I gained an interest in learning more about what goes on 
+                   behind the scenes of the UI and becoming a developer. I have since pivoted 
+                   to the world of software engineering and have learned some tools and 
+                   skills to build full-stack applications. My goal is to make peoples' 
+                   lives better through development and a positive user experience.
                 </p>
+                <img src={CODE} className='about-image'/>
+                </div>
                 <div className='skills'>
                 <h3 className='skills-title'>Skills</h3>
                 <ul>

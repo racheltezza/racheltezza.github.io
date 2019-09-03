@@ -14,8 +14,13 @@ export default class Homepage extends Component {
                     <NavBar/>
                 </div>
                 <div className='title-name'>
-                    <h1>Rachel Tezza</h1>
-                    <h3>Full-Stack Developer</h3>
+                    <div className='title'>
+                        <h1>Rachel Tezza</h1>
+                        <h3>Full-Stack Developer</h3>
+                        <p className='brand-statement'> Artistic and deviceful software engineer coming from a background
+                            in UX and creative design ready <br/> to develop the world into a better
+                            and more beautiful place. </p>
+                    </div>
                 </div>
                 <div className="about">
                     <About/>
