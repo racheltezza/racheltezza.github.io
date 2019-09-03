@@ -45,6 +45,7 @@ h4 {
 
 .bold {
   font-weight: bold;
+  color: black;
 }
 
 p {
@@ -94,6 +95,7 @@ a {
   padding: 10px;
   font-size: 18px;
   font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 2px;
 }
 
 .about {
@@ -109,6 +111,7 @@ a {
   width: 50vw;
   line-height: 1.5;
   font-size: 18px;
+  letter-spacing: 2px;
 }
 
 .about-image {
