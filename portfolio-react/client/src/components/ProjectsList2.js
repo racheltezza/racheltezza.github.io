@@ -54,15 +54,15 @@ export default class ProjectsList2 extends Component {
                             <img src={project.image} className='project-image' />
                         </li>
                         <li>
-                        <span className='bold'>About:</span> {project.about} 
+                        <span className='bold'>About</span><br/> {project.about} 
                         </li>
-                        <li><span className='bold'>Skill Objective:</span> {project.description}</li>
-                        <li><span className='bold'>Languages Used:</span> {project.skills}</li>
+                        <li><span className='bold'>Skill Objective</span><br/> {project.description}</li>
+                        <li><span className='bold'>Languages Used</span><br/> {project.skills}</li>
                         <li>
-                            <a href={project.projectLink}>See Project Here</a>
+                            <a href={project.projectLink}>Website</a>
                         </li>
                         <li>
-                            <a href={project.gitHubLink}>GitHub Repo</a>
+                            <a href={project.gitHubLink}>On GitHub</a>
                         </li> 
                     </ul>
                 </div>

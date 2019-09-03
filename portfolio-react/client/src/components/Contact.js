@@ -27,7 +27,7 @@ handleHideResume = () => {
                 <a name='contact'></a>
                 <ul>
                     <li>
-                        <p><span className='bold'>Email:</span> racheletezza@gmail.com</p>
+                        <p>racheletezza@gmail.com</p>
                     </li>
                     <li>
                         <a href='https://www.linkedin.com/in/racheltezza/' className='contact-link'>LinkedIn</a>

@@ -158,8 +158,6 @@ a {
   padding: 20px;
   margin: 20px auto;
   color: rgb(66, 40, 79);
-  /* display: flex; */
-  /* flex-direction: row; */
 }
 
 .project {
@@ -168,10 +166,12 @@ a {
   margin: 10px;
   color: whitesmoke;
   width: 35vw;
+  line-height: 1.6;
 }
 
 .project a {
-  color: whitesmoke;;
+  color: rgb(66, 40, 79);
+  letter-spacing: 1px;
 }
 
 .projects-title {
@@ -199,7 +199,7 @@ a {
 }
 
 .projects li {
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 .contact {
