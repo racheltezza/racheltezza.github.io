@@ -30,10 +30,10 @@ handleHideResume = () => {
                         <p><span className='bold'>Email:</span> racheletezza@gmail.com</p>
                     </li>
                     <li>
-                        <a href='https://www.linkedin.com/in/racheltezza/'>LinkedIn</a>
+                        <a href='https://www.linkedin.com/in/racheltezza/' className='contact-link'>LinkedIn</a>
                     </li>
                     <li>
-                        <a href='https://github.com/racheltezza?tab=repositories'>GitHub</a>
+                        <a href='https://github.com/racheltezza?tab=repositories' className='contact-link'>GitHub</a>
                     </li>
                 </ul>
             </div>

@@ -14,20 +14,28 @@ body {
 h1 {
   font-size: 80px;
   font-family: 'Playfair Display', serif;
-  color: rgb(247, 93, 93);
+  color: whitesmoke;
+  letter-spacing: 14px;
 }
 
 h2 {
   font-size: 40px;
   font-family: 'Playfair Display', serif;
-  color: rgb(247, 93, 93);
+  color: whitesmoke;
+  letter-spacing: 6px;
 }
 
 h3 {
   font-size: 30px;
   font-family: 'Playfair Display', serif;
-  color: rgb(247, 93, 93);
+  color: whitesmoke;
   margin: 50px auto;
+  font-weight: 100;
+  letter-spacing: 4px;
+}
+
+h4 {
+  text-decoration: underline;
 }
 
 .bold {
@@ -39,12 +47,14 @@ p {
 }
 
 a {
-  color: rgb(247, 93, 93);
+  color: rgb(66, 40, 79);
+  font-weight: 500;
+  letter-spacing: 3px;
 }
 
 .navbar {
   /* background-color: #282c34; */
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
 }
 
 .navbar ul{
@@ -55,14 +65,18 @@ a {
 
 .title-name {
   padding: 100px;
-  margin: 50px auto 200px auto;
-  /* background-image: url('./blurred_lights.jpg') */
+  margin: 20px auto 200px auto;
+  background-image: url('./purple_plant.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .about {
   padding: 20px;
-  margin: 100px auto;
-  background-color: #282c34;
+  margin: 50px auto;
+  background-color: rgb(66, 40, 79);
   color: whitesmoke;
 }
 
@@ -73,7 +87,7 @@ a {
 .about ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -82,16 +96,37 @@ a {
 }
 
 .skills {
-  background-color: whitesmoke;
-  color: #282c34;
+  background-color: white;
+  color: rgb(66, 40, 79);
   padding: 10px;
+}
+
+.skills-title {
+  color: rgb(66, 40, 79);
+}
+
+.skill-couple {
+  color: rgb(66, 40, 79);
+  font-weight: 500;
 }
 
 .projects {
   padding: 20px;
-  margin: 100px auto;
+  margin: 50px auto;
+  color: rgb(66, 40, 79);
   /* display: flex; */
   /* flex-direction: row; */
+}
+
+.projects-title {
+  color: rgb(66, 40, 79);
+}
+
+.projects-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .project-image {
@@ -101,6 +136,7 @@ a {
 .projects ul {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   /* border: 1px solid rgb(247, 93, 93); */
   /* width: 40vw; */
 }
@@ -111,11 +147,15 @@ a {
 
 .contact {
   padding: 20px 0;
-  background-color: #282c34;
+  background-color: rgb(66, 40, 79);
   color: whitesmoke;
 }
 .contact li {
   margin: 30px auto;
+}
+
+.contact-link {
+  color: whitesmoke;
 }
 
 .contact ul {

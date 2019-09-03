@@ -6,20 +6,20 @@ import AjarYoga from '../ajar_yoga.png';
 
 let projects = [
     {
+        name: "Ajar Yoga",
+        gitHubLink: "https://github.com/racheltezza/project4-yoga",
+        projectLink: "https://quiet-falls-54203.herokuapp.com/",
+        description: "make a full stack application with mern",
+        skills: "html, css, js",
+        image: AjarYoga
+    },
+    {
         name: "projectPlaylist",
         gitHubLink: "https://github.com/racheltezza/project2-playlists",
         projectLink: "https://morning-badlands-64029.herokuapp.com/users",
         description: "make a full stack application with mehn",
         skills: "html, css, js",
         image: ProjectPlaylist
-    },
-    {
-        name: "jeopardy",
-        gitHubLink: "https://github.com/racheltezza/project1-jeopardy",
-        projectLink: "https://rezzaproject1jeopardy.netlify.com/",
-        description: "make a functioning jeopardy game",
-        skills: "html, css, js",
-        image: Jeopardy
     },
     {
         name: "recycleThat",
@@ -30,13 +30,13 @@ let projects = [
         image: RecycleThat
     },
     {
-        name: "Ajar Yoga",
-        gitHubLink: "https://github.com/racheltezza/project4-yoga",
-        projectLink: "https://quiet-falls-54203.herokuapp.com/",
-        description: "make a full stack application with mern",
+        name: "jeopardy",
+        gitHubLink: "https://github.com/racheltezza/project1-jeopardy",
+        projectLink: "https://rezzaproject1jeopardy.netlify.com/",
+        description: "make a functioning jeopardy game",
         skills: "html, css, js",
-        image: AjarYoga
-    }
+        image: Jeopardy
+    },
 ]
 
 export default class ProjectsList2 extends Component {
@@ -45,9 +45,9 @@ export default class ProjectsList2 extends Component {
             return(
                 <div>
                     <ul>
-                        <li>{project.name}</li>
+                        <li><h4>{project.name}</h4></li>
                         <li>
-                            <img src={project.image} className='project-image'/>
+                            <img src={project.image} className='project-image' />
                         </li>
                         <li>
                             <a href={project.projectLink}>See Project Here</a>
@@ -63,9 +63,11 @@ export default class ProjectsList2 extends Component {
         })
         return (
             <div>
-                <a name='projects'></a>
-                <h2>Projects</h2>
+            <a name='projects'></a>
+                <h2 className='projects-title'>Projects</h2>
+                    <div className='projects-list'>
                 {projectsList}
+                </div>
             </div>
         )
     }

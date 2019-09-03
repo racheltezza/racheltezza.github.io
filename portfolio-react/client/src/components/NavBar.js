@@ -6,16 +6,16 @@ export default class NavBar extends Component {
             <div>
                 <ul>
                     <li>
-                        <a href='#home'>Home</a>
+                        <a href='#home'>HOME</a>
                     </li>
                     <li>
-                    <a href='#about'>About</a>
+                    <a href='#about'>ABOUT</a>
                     </li>
                     <li>
-                    <a href='#projects'>Projects</a>
+                    <a href='#projects'>PROJECTS</a>
                     </li>
                     <li>
-                    <a href='#contact'>Contact</a>
+                    <a href='#contact'>CONTACT</a>
                     </li>
                 </ul>
             </div>

@@ -33,10 +33,6 @@ let skills = [
         icon: REACT
     },
     {
-        name: 'NODE.JS',
-        icon: NODE
-    },
-    {
         name: 'GIT',
         icon: GIT
     },
@@ -53,8 +49,16 @@ let skills = [
         icon: HEROKU
     },
     {
+        name: 'NODE.JS',
+        icon: NODE
+    },
+    {
         name: 'MONGODB',
         icon: MONGO
+    },
+    {
+        name: 'VISUAL STUDIO CODE',
+        icon: VS
     },
     {
         name: 'ADOBE ILLUSTRATOR',
@@ -63,10 +67,6 @@ let skills = [
     {
         name: 'ADOBE PHOTOSHOP',
         icon: PS
-    },
-    {
-        name: 'VISUAL STUDIO CODE',
-        icon: VS
     },
     // {
     //     name: 'SKETCH APP',
@@ -79,19 +79,19 @@ export default class AboutMe extends Component {
     render() {
         let skillsList = skills.map((skill) => {
             return(
-            <div>
-                <li><img src={skill.icon}/>{skill.name}</li>
+            <div className='skill-couple'>
+                <li><img src={skill.icon}/><br/>{skill.name}</li>
                 </div>)
         })
         return (
             <div>
                 <a name='about'></a>
                 <h2>About</h2>
-                <p className='about-p'>Coming from a background in creative and UX design, as a full-stack dveeloper,
-                    I am ready and excited to develop the world into a better and more beautiful place.
+                <p className='about-p'>
+                    Artistic and deviceful software engineer coming from a background in UX and creative design ready to develop the world into a better and more beautiful place. 
                 </p>
                 <div className='skills'>
-                <h3>Skills</h3>
+                <h3 className='skills-title'>Skills</h3>
                 <ul>
                 {skillsList}
                 </ul>
