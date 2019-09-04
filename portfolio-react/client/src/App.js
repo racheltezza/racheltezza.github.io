@@ -11,7 +11,6 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={HomePage}/>
-          <Route path="/projects/:projectId" component={ProjectCard} />
         </Switch>
       </Router>
     </div>
